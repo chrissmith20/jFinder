@@ -3,7 +3,7 @@ import React from "react"
 const JobContainer = (props) => {
   return(
     <div>
-      <h1>AYYYYYYYYYY</h1>
+      <h1>AYYYYYYYYYYY</h1>
     </div>
   )
 };
