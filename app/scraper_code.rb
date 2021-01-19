@@ -49,7 +49,7 @@ def scraper
         position: element.css('h2.title').text,
         location: element.css('span.accessible-contrast-color-location').text,
         salary: element.css('span.salaryText').text,
-        age: element.css('span.date').text,
+        date: element.css('span.date').text,
         description: element.css('div.summary').text,
         url: "indeed.com"
       }
