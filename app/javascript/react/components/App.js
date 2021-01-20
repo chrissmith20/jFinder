@@ -6,7 +6,9 @@ export const App = (props) => {
   return (
     <div>
       <BrowserRouter>
+        <Switch>
           <Route exact path="/" component={JobContainer} />
+        </Switch>
       </BrowserRouter>
     </div>
   )
