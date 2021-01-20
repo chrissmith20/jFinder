@@ -24,11 +24,11 @@ const JobContainer = (props) => {
     .catch(error => console.error(`Error in fetch: ${error.message}`))
 }, []);
 
-  const jobTitles = jobs.map((x) => {
+  const jobTitles = jobs.map((element) => {
     return(
       <JobTile
-        key={x.id}
-        tileData={x}
+        key={element.id}
+        tileData={element}
       />
     )
   });
@@ -36,7 +36,7 @@ const JobContainer = (props) => {
   return(
     <div>
       <h1>AYYYYYYYYYYY</h1>
-      <h1>{jobTitles}</h1>
+      {jobTitles}
     </div>
   )
 };

@@ -29,7 +29,7 @@ careers = Job.create([
       location:"",
       salary:"",
       date: "1/20/2021",
-      description:"",
+      description:"It will be Awesome",
       url: "www.Apple.com.com"
     }
   ]
