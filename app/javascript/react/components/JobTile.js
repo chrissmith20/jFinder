@@ -7,7 +7,15 @@ const JobTile = ({tileData}) => {
   return (
     <>
     <div>
-      <h1> {position} </h1>
+      <ul>
+       <h1> {position} </h1>
+       <p> {company} </p>
+       <p> {location} </p>
+       <p> {salary} </p>
+       <p> {date} </p>
+       <p> {description} </p>
+       <p> {url} </p>
+      </ul>
     </div>
     </>
   )
