@@ -34,10 +34,11 @@ const JobContainer = (props) => {
   });
 
   return(
-    <div>
-      <h1>AYYYYYYYYYYY</h1>
+  <div className="fade-in">
+    <div className="page">
       {jobTitles}
     </div>
+  </div>
   )
 };
 
