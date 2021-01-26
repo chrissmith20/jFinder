@@ -2,6 +2,7 @@ class Api::V1::JobsController < ApplicationController
 
   def index
     render json: Job.all
+    binding.pry
   end
 
   def show

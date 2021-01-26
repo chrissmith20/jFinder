@@ -52,9 +52,6 @@ class Scraper
 
       jobs << job_info
     end
-
   end
-end
 
-scrape = Scraper.new
-scrape.scraper_method()
+end
