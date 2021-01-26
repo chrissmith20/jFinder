@@ -7,11 +7,12 @@ Rails.application.routes.draw do
   get '/job/:id', to: 'homes#index'
   get '/job/:id/edit', to: 'homes#index'
 
+  get "/works", to: 'works#index'
+
   namespace :api do
     namespace :v1 do
       resources :jobs
     end
   end
-
 
 end
