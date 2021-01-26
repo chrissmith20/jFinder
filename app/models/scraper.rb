@@ -11,10 +11,10 @@ class Scraper
 
     job_listings = parsed_content.css('div.jobsearch-SerpJobCard')
 
-    # job_company = job_listings.css('span.company')
-    # job_role = job_listings.css('h2.title')
-    # job_location = job_listings.css('span.accessible-contrast-color-location')
-    # job_salary = job_listings.css('span.salaryText')
+    job_company = job_listings.css('span.company')
+    job_role = job_listings.css('h2.title')
+    job_location = job_listings.css('span.accessible-contrast-color-location')
+    job_salary = job_listings.css('span.salaryText')
 
     # job_link = job_role.css('a')[0].attributes['href'].value
 
